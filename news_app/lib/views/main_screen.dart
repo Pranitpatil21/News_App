@@ -13,7 +13,7 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _screens = [
     HomeScreen(),
     Center(child: Text("Profile Screen"))
-  ];
+  ];  
 
   @override
   Widget build(BuildContext context) {
