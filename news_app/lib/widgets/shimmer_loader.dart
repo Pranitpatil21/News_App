@@ -8,7 +8,7 @@ class ShimmerLoader extends StatelessWidget {
       baseColor: Colors.grey[300]!,
       highlightColor: Colors.grey[100]!,
       child: Container(
-        height: 150,
+        height: 150,    
         width: double.infinity,
         color: Colors.white,
       ),
