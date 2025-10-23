@@ -6,7 +6,7 @@ class NewsArticle {
 
   NewsArticle({
     required this.title,
-    required this.description,
+    required this.description, 
     required this.url,
     required this.imageUrl,
   });
