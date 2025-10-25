@@ -4,7 +4,7 @@ import '../models/news_article.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 class NewsDetailScreen extends StatelessWidget {
-  final NewsArticle article;
+  final NewsArticle article; 
 
   NewsDetailScreen({required this.article});
 
