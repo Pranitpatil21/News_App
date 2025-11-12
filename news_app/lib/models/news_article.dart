@@ -5,7 +5,7 @@ class NewsArticle {
   final String imageUrl;
 
   NewsArticle({
-    required this.title,
+    required this.title,  
     required this.description, 
     required this.url,
     required this.imageUrl,
