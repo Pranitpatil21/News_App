@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import '../models/news_article.dart';
 import '../services/api_service.dart';
-
+ 
 class NewsController extends GetxController {
   var articles = <NewsArticle>[].obs;
   var isLoading = true.obs;
