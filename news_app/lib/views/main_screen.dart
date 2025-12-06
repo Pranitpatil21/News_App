@@ -3,7 +3,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'home_screen.dart';
 
-class MainScreen extends StatefulWidget {
+class MainScreen extends StatefulWidget {  
   @override
   _MainScreenState createState() => _MainScreenState();
 }
