@@ -6,7 +6,7 @@ class ApiService {
   static const String apiKey = '9f2028d44fa442b9942b56fb4e7ba3e8';
   static const String baseUrl = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=$apiKey';
   
-  static Future<List<NewsArticle>> fetchNews() async {
+  static Future<List<NewsArticle>> fetchNews() async { 
     final response = await http.get(Uri.parse(baseUrl));    
 
     if (response.statusCode == 200) {
