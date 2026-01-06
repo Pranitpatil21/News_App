@@ -8,7 +8,7 @@ class NewsController extends GetxController {
   var searchQuery = ''.obs;
 
   @override 
-  void onInit() {
+  void onInit() { 
     fetchNews();
     super.onInit();
   }
