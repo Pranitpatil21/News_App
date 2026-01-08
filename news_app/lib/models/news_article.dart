@@ -2,7 +2,7 @@ class NewsArticle {
   final String title;
   final String description;
   final String url;
-  final String imageUrl;
+  final String imageUrl; 
 
   NewsArticle({
     required this.title,  
