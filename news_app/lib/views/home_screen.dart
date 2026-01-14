@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import '../controllers/news_controller.dart';
+import '../controllers/news_controller.dart'; 
 import '../widgets/shimmer_loader.dart';
 import 'news_detail_screen.dart';
 
