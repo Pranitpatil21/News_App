@@ -3,7 +3,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../models/news_article.dart';
 import 'package:flutter_animate/flutter_animate.dart'; 
 
-class NewsDetailScreen extends StatelessWidget {
+class NewsDetailScreen extends StatelessWidget { 
   final NewsArticle article; 
 
   NewsDetailScreen({required this.article});
